@@ -77,7 +77,7 @@
 		<p class="content"><b>Product Identity</b><br>
 		To begin our design process, we developed a product identity and feel. We chose the word 'Cautio' to represent our product; it is the Latin word for "taking of precautions", which was the perfect fit since our goal was to develop a solution that prevents obstacles for both sides of a police-subject encounter. We settled on Bauhaus as the logo typeface since it represented everything we wanted Cautio to be: <b>bold</b> and <i>flexible</i>. The blue rays being emitted from the "i" character symbolizes data being transmitted from the Internet component of Cautio.</p>
 		<div class="image-container" style="max-width:550px; padding: 0px 70px 0px 70px;">
-			<img src="images/cautio-logo.png" id="cautio-logo" alt="Cautio Logo">
+			<img src="images/cautio-logo.png" id="cautio-logo">
 		</div>
 		<br><br>
 		<p class="content"><b>User Needs</b><br>
@@ -94,23 +94,23 @@ interaction between the officer and the subject</li>
 		<p class="content">With these in mind, we developed a concept art for our vision of the product. It is a bold new direction for the policing industry, giving them futuristic-looking tools. This concept addresses all of the user needs: for example, the glasses will follow the wearer's line of sight and is easy to integrate into a uniform.</p>
 
 		<div class="image-container" style="max-width:630px;">
-			<img src="images/cautio-2.png" id="cautio-logo" alt="Cautio Logo">
+			<img src="images/cautio-2.png" id="cautio-logo">
 		</div>
 		<p class="content"><b>Gathering Data from Gun Usage</b><br>
 		The hardware has two primary components: the glasses and the gun unit. The prototype has a Raspberry Pi camera module fixated on the right side. This module is connected to a Raspberry Pi, where a signal from the gun unit can enable video streaming to our cloud platform.</p><br>
 		<div class="image-container" style="max-width:740px">
-			<img src="images/cautio-3.png" id="cautio-logo" alt="Cautio Logo">
+			<img src="images/cautio-3.png" id="cautio-logo">
 		</div><br>
 		<p class="content">The sensor unit is designed to communicate with a mobile phone application, that was developed using a <a href="http://evothings.com/doc/examples/ble-ti-sensortag-sensors.html">library from EvoThings</a>. The sensor we decided to use for prototyping purposes was the <a href="http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag">SensorTag from Texas Instruments</a>, since it had many of our required sensors and the Bluetooth component in a light, low cost package. Our trigger was the luminosity of the ambient light. Our tests had shown that dark rooms and night environments still produced some luminosity; however, the sensor would not detect any light when the gun was in its holster. The logic was that when some light was detected, it would mean that the gun had been unholstered and this would trigger the video recording from the glasses and the data tracking of the gun. Such data tracked from the gun include its accelerometer and gyroscope data. This data would be particularily useful to show how the gun was oriented in a 3D model, but time constraints prevented us from developing this feature for the prototype.</p>
 		<br>
 		<div class="image-container" style="max-width:790px">
-			<img src="images/cautio-4.png" id="cautio-logo" alt="Cautio Logo">
+			<img src="images/cautio-4.png" id="cautio-logo">
 		</div>
 		<br><br>
 		<p class="content"><b>The Control Centre</b><br>
 		The Control Centre was designed to be perpetually on the main screen at a police station or headquarters; it is the main hub for monitoring encounters in real time. It was built as a web application so that it can be viewed from any screen: computers, large televisions, tablets. Due to time constraints, we built a prototype on tracking just a single police officer, though a refined product would automatically display tracking information on all officers involved in an encounter, all in real time. For this prototype, we simply had the Control Centre turn off (all video feeds and graphs were disabled) by default, and enabled these features when the gun had been displaced from its holster. The information from the sensor was sent by the mobile application to a cloud database, where the web application software would recognize the luminosity trigger, and begin to parse the sensor data into graphs. At the same time, the Raspberry Pi camera module would begin to record video footage from the glasses, and livestream this feed on the Control Centre's video player.</p>
 		<div class="image-container" style="max-width:680px">
-			<img src="images/cautio-5.png" id="cautio-logo" alt="Cautio Logo">
+			<img src="images/cautio-5.png" id="cautio-logo">
 		</div>
 		<br><br>
 
