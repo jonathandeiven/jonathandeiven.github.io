@@ -461,6 +461,10 @@ a.aboutlink:hover{
     top: -2px;
 }
 
+.timeline-link{
+    color: #1e71ee;
+}
+
 .nest{
     height: 59px;
     margin-left: 1px;
