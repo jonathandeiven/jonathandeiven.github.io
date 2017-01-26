@@ -182,7 +182,7 @@ b {
  * ----------------- */
 
 #about{
-    background-color: #164775;
+    background-color: #296baa;
     display: block;
     width: 100%;
     min-height: 100%;
@@ -215,7 +215,7 @@ b {
 
 .abouttitle{
     max-width: 520px;
-    background-color:#164775;
+    background-color:#296baa;
     padding: 0px 30px 0px 30px;
     display:inline-block;
 }
@@ -266,7 +266,7 @@ b {
 
 a.aboutlink, a.aboutlink:visited, a.aboutlink:hover, a.aboutlink:active{
     color: inherit;
-    color: #b5e6ff;
+    color: #c1eaff;
 }
 
 a.aboutlink:hover{
@@ -465,6 +465,11 @@ a.aboutlink:hover{
     color: #1e71ee;
 }
 
+.amazon{
+    height: 64px;
+    margin-left: 1px;
+}
+
 .nest{
     height: 59px;
     margin-left: 1px;
@@ -497,7 +502,7 @@ a.aboutlink:hover{
 
 #contact {
     background: none; 
-    background-color: #164775; 
+    background-color: #296baa; 
     display: table;
 }
 
