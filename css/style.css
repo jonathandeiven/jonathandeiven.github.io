@@ -144,7 +144,7 @@ b {
  *        HOME
  * ----------------- */
 #home{
-    background-color: #efefef;
+    background-color: #fefefe;
     display: block;
     width: 100%;
 }
@@ -182,7 +182,7 @@ b {
  * ----------------- */
 
 #about{
-    background-color: #296baa;
+    background-color: #3387d7;
     display: block;
     width: 100%;
     min-height: 100%;
@@ -215,7 +215,7 @@ b {
 
 .abouttitle{
     max-width: 520px;
-    background-color:#296baa;
+    background-color:#3387d7;
     padding: 0px 30px 0px 30px;
     display:inline-block;
 }
@@ -333,7 +333,7 @@ a.aboutlink:hover{
  * ----------------- */
 
 #experience {
-    background-color: #efefef; 
+    background-color: #fefefe; 
     display: block;
     width: 100%;
     min-height: 100%;
@@ -360,7 +360,7 @@ a.aboutlink:hover{
 
 .experiencetitle{
     max-width: 520px;
-    background-color:#efefef;
+    background-color:#fefefe;
     padding: 0px 30px 0px 30px;
     display:inline-block;
     font-weight: 600;
@@ -382,7 +382,7 @@ a.aboutlink:hover{
 }
 
 .resume-button{
-    background-color: #e14938;
+    background-color: #ec3446;
     border-radius: 7px;
     color: #fff;
     display: block;
@@ -397,7 +397,7 @@ a.aboutlink:hover{
 }
 
 .resume-button:hover{
-    background-color: #b8312f;
+    background-color: #c02d3b;
 }
 
 .resume-button, .resume-button:visited, .resume-button:hover, .resume-button:active{
@@ -502,7 +502,7 @@ a.aboutlink:hover{
 
 #contact {
     background: none; 
-    background-color: #296baa; 
+    background-color: #ec3446; 
     display: table;
 }
 
@@ -522,7 +522,7 @@ a.aboutlink:hover{
 .contact-subheader{
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
-    color: #dadada;
+    color: #e5e5e5;
     font-size: 16.5px;
     line-height: 1.65em;
 }
